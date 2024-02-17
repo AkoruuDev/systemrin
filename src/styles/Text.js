@@ -18,8 +18,13 @@ const Title = styled.h1`
     color: #dbdbdb;
 `
 
+const Subtitle = styled.h2`
+    font-size: 38px;
+    color: #dbdbdb;
+`
+
 const Quote = styled.span`
-    font-size: 25px;
+    font-size: 20px;
     color: #dbdbdb;
 `
 
@@ -31,6 +36,7 @@ const Paragraph = styled.p`
 export {
     TextNav,
     Title,
+    Subtitle,
     Quote,
     Paragraph
 }

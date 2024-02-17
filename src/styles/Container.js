@@ -8,6 +8,20 @@ const Container = styled.section`
 
     flex-direction: column;
     align-items: center;
+
+    overflow: hidden;
+    overflow-y: auto;
+
+    
+    &::-webkit-scrollbar {
+        width: 8px;
+        background-color: #ffffff82;
+    }
+
+    &::-webkit-scrollbar-thumb {
+        background-color: #ffbb00;
+        border-radius: 50px;
+    }
 `
 
 export {

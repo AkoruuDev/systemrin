@@ -10,12 +10,12 @@ const Header = styled.header`
     align-items: center;
 `;
 
-const Header_Nav = styled.section`
-    height: 100px;
+const NavArea = styled.section`
     width: 65vw;
+    padding: 14px 0;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
 `
 
 const Nav = styled.nav`
@@ -30,17 +30,28 @@ const Box = styled.div`
     align-items: center;
 `
 
-const Footer = styled.footer`
-    width: 65vw;
+const Section = styled.section`
+    width: 100vw;
     padding: 25px 0;
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+`
+
+const Footer = styled.footer`
+    width: 65vw;
+    padding: 0 0 25px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 `
 
 export {
     Header,
-    Header_Nav,
+    NavArea,
     Nav,
     Box,
+    Section,
     Footer
 }
