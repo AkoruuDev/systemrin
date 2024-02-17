@@ -1,10 +1,12 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { About, Contact, Home, NotFound } from "./pages";
+import { GlobalStyle } from "./styles";
 
 function App() {
   return (
     <div>
       <BrowserRouter>
+        <GlobalStyle />
         <Routes>
           <Route path="/" element={<Home />} />
           
@@ -21,6 +23,7 @@ function App() {
 
           {/* <Route path="/store" element={<Store />} /> */}
           {/* <Route path="/product/:name" element={<ProductDetails />} /> */}
+          {/* <Route path="/bots" element={<MenuItems />} /> */}
 
           <Route path="*" element={<NotFound />} />
         </Routes>
