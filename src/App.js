@@ -1,5 +1,5 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import { About, Contact, Home, NotFound } from "./pages";
+import { About, Contact, Home, NotFound, PrivacityPolicity, TermsOfUse } from "./pages";
 import { GlobalStyle } from "./styles";
 
 function App() {
@@ -24,6 +24,9 @@ function App() {
           {/* <Route path="/store" element={<Store />} /> */}
           {/* <Route path="/product/:name" element={<ProductDetails />} /> */}
           {/* <Route path="/bots" element={<MenuItems />} /> */}
+
+          <Route path="/terms-of-use" element={<TermsOfUse />} />
+          <Route path="/privacity-policity" element={<PrivacityPolicity />} />
 
           <Route path="*" element={<NotFound />} />
         </Routes>
