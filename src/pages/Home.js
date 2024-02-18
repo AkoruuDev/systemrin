@@ -15,14 +15,16 @@ function Home() {
                 <Quote>tell me child, what would have in your perfect world?</Quote>
             </Box>
             <SecSec>
-                <Subtitle>Listen to your calling</Subtitle>
-                <Space />
-                <Quote>What if all your life was just a dream and now you woke up</Quote>
-                <Quote>And everything around you would be new and wondrous, with dragons and magic, and you were part of that everything?</Quote>
-                <Space />
-                <Quote>Live in a new world and meet new people</Quote>
-                <Quote>Explore dungeons and receive amazing items</Quote>
-                <Quote>Craft your own perfect world</Quote>
+                <section>            
+                    <Subtitle>Listen to your calling</Subtitle>
+                    <Space />
+                    <Quote>What if all your life was just a dream and now you woke up</Quote>
+                    <Quote>And everything around you would be new and wondrous, with dragons and magic, and you were part of that everything?</Quote>
+                    <Space />
+                    <Quote>Live in a new world and meet new people</Quote>
+                    <Quote>Explore dungeons and receive amazing items</Quote>
+                    <Quote>Craft your own perfect world</Quote>
+                </section>
             </SecSec>
             <FooterComponent />
         </Container>
@@ -37,4 +39,11 @@ const SecSec = styled(Section)`
     margin-top: 50px;
     padding: 40px 0;
     border-radius: 50px 50px 0 0;
+
+    & section {
+        width: 65vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 `
