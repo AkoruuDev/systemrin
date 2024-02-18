@@ -38,6 +38,15 @@ const Section = styled.section`
     align-items: center;
 `
 
+const MainBox = styled.section`
+    width: 65vw;
+    margin: 50px 0;
+    padding: 50px 100px;
+    background-color: #292929;
+
+    color: #ffd1ab;
+`
+
 const Footer = styled.footer`
     width: 65vw;
     padding: 0 0 25px 0;
@@ -53,5 +62,6 @@ export {
     Nav,
     Box,
     Section,
+    MainBox,
     Footer
 }

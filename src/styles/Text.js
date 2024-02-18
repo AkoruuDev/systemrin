@@ -14,29 +14,89 @@ const TextNav = styled.p`
 `
 
 const Title = styled.h1`
+    margin: 20px 0;
     font-size: 53px;
     color: #dbdbdb;
 `
 
-const Subtitle = styled.h2`
+const TitleShort = styled.h2`
+    width: 100%;
+    margin: 20px 0;
     font-size: 38px;
+    color: #dbdbdb;
+    text-align: center;
+`
+
+const Subtitle = styled.h2`
+    margin: 20px 0;
+    font-size: 28px;
     color: #dbdbdb;
 `
 
 const Quote = styled.span`
-    font-size: 20px;
-    color: #dbdbdb;
-`
-
-const Paragraph = styled.p`
+    margin: 20px 0;
+    text-align: center;
     font-size: 25px;
     color: #dbdbdb;
 `
 
+const RightQuote = styled.span`
+    margin: 20px 0;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    margin: 50px 0;
+    color: #dbdbdb;
+`
+
+const Paragraph = styled.p`
+    margin: 20px 0;
+    font-size: 25px;
+    color: #dbdbdb;
+    font-weight: 200;
+`
+
+const Title_orange = styled(Title)`
+    color: #ffd1ab;
+`
+
+const TitleShort_orange = styled(TitleShort)`
+    color: #ffd1ab;
+`
+
+const Subtitle_orange = styled(Subtitle)`
+    color: #ffd1ab;
+`
+
+const Quote_orange = styled(Quote)`
+    color: #ffd1ab;
+`
+
+const RightQuote_orange = styled(RightQuote)`
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    margin: 50px 0;
+    color: #ffd1ab;
+`
+
+const Paragraph_orange = styled(Paragraph)`
+    color: #ffd1ab;
+`
+
+
 export {
     TextNav,
     Title,
+    TitleShort,
     Subtitle,
     Quote,
-    Paragraph
+    RightQuote,
+    Paragraph,
+    Title_orange,
+    TitleShort_orange,
+    Subtitle_orange,
+    Quote_orange,
+    RightQuote_orange,
+    Paragraph_orange
 }
