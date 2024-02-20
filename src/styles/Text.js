@@ -20,11 +20,9 @@ const Title = styled.h1`
 `
 
 const TitleShort = styled.h2`
-    width: 100%;
     margin: 20px 0;
     font-size: 38px;
     color: #dbdbdb;
-    text-align: center;
 `
 
 const Subtitle = styled.h2`
@@ -34,7 +32,6 @@ const Subtitle = styled.h2`
 `
 
 const Quote = styled.span`
-    margin: 20px 0;
     text-align: center;
     font-size: 25px;
     color: #dbdbdb;
@@ -50,7 +47,6 @@ const RightQuote = styled.span`
 `
 
 const Paragraph = styled.p`
-    margin: 20px 0;
     font-size: 25px;
     color: #dbdbdb;
     font-weight: 200;

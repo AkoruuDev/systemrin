@@ -45,6 +45,35 @@ const MainBox = styled.section`
     background-color: #292929;
 
     color: #ffd1ab;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+`
+
+const BoxArea = styled.div`
+    width: 100%;
+`
+
+const Brick = styled.div`
+    height: 250px;
+    margin: 5px;
+    padding: 25px;
+    background-color: #7e7e7e;
+    border-radius: 8px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    
+    cursor: pointer;
+    transition: all 0.2s ease;
+
+    &:hover {
+        background-color: #8f8f8f;
+        transform: scale(1.05);
+    }
 `
 
 const Footer = styled.footer`
@@ -63,5 +92,7 @@ export {
     Box,
     Section,
     MainBox,
+    BoxArea,
+    Brick,
     Footer
 }
