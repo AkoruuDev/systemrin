@@ -1,6 +1,7 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import { About, Contact, Home, NotFound, PrivacityPolicity, TermsOfUse } from "./pages";
+import { About, Contact, Home, NotFound, PrivacityPolicity, TermsOfUse, MenuItems } from "./pages";
 import { GlobalStyle } from "./styles";
+import { Cards } from "./content";
 
 function App() {
   return (
@@ -14,8 +15,17 @@ function App() {
           <Route path="/contact" element={<Contact />} />
           <Route path="/about" element={<About />} />
 
-          {/* <Route path="/systems" element={<MenuItems />} /> */}
-          {/* <Route path="/universe" element={<MenuItems />} /> */}
+          <Route path="/systems" element={
+            <MenuItems>
+              <Cards type='System'/>
+            </MenuItems>
+          } />
+          <Route path="/universe" element={
+            <MenuItems>
+              <Cards type='Universe'/>
+            </MenuItems>
+          } />
+          {/* <Route path="/profile/:nickname" element={<Perfil />} /> */}
 
           {/* <Route path="/blog" element={<Blog />} /> */}
           {/* <Route path="/post/:id" element={<Post />} /> */}
@@ -24,6 +34,8 @@ function App() {
           {/* <Route path="/store" element={<Store />} /> */}
           {/* <Route path="/product/:name" element={<ProductDetails />} /> */}
           {/* <Route path="/bots" element={<MenuItems />} /> */}
+
+          {/* <Route path="/timer" element={<Timer />} /> */}
 
           <Route path="/terms-of-use" element={<TermsOfUse />} />
           <Route path="/privacity-policity" element={<PrivacityPolicity />} />
