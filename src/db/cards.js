@@ -6,7 +6,8 @@ const cards = [
         title: "Title",
         description: "This is the card description",
         imageUrl:"https://www.rhapsodie.co/assets/img/default-image.jpg?w=229",
-        type: {
+        type: 'System',
+        type_box: {
             name: 'type name',
             color: colors.purple
         }
