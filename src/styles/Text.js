@@ -31,6 +31,12 @@ const Subtitle = styled.h2`
     color: #dbdbdb;
 `
 
+const H3 = styled.h3`
+    margin: 10px 0;
+    font-size: 15px;
+    color: #dbdbdb;
+`
+
 const Quote = styled.span`
     text-align: center;
     font-size: 25px;
@@ -64,6 +70,10 @@ const Subtitle_orange = styled(Subtitle)`
     color: #ffd1ab;
 `
 
+const H3_orange = styled(H3)`
+    color: #ffd1ab;
+`
+
 const Quote_orange = styled(Quote)`
     color: #ffd1ab;
 `
@@ -94,5 +104,7 @@ export {
     Subtitle_orange,
     Quote_orange,
     RightQuote_orange,
-    Paragraph_orange
+    Paragraph_orange,
+    H3, 
+    H3_orange
 }

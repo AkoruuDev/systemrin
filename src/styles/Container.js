@@ -4,8 +4,9 @@ const Container = styled.section`
     height: 100vh;
     width: 100vw;
     background-color: #0f0f0f;
-    display: flex;
+    color: #ffbc1a;
 
+    display: flex;
     flex-direction: column;
     align-items: center;
 
