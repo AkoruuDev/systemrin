@@ -1,2 +1,6 @@
 export * from './meets'
 export * from './links'
+// export * from './perfil'
+// export * from './characters'
+export * from './cards'
+export * from './colors'
