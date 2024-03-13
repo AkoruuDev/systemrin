@@ -5,7 +5,7 @@ const cards = [
         id: 0,
         title: "Title",
         description: "This is the card description",
-        imageUrl:"https://www.rhapsodie.co/assets/img/default-image.jpg?w=229",
+        imageUrl:"https://github.com/AkoruuDev/systemrin/blob/main/src/assets/default-image.jpg?raw=true",
         type: 'System',
         type_box: {
             name: 'type name',
