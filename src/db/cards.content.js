@@ -250,6 +250,61 @@ const cards_content = [
                 content: "A partir do nível 250, é possivel abrir portais pra outros planos, mas sempre sujeito as leis daquele plano. Também pode manipular com menos dificuldade, as Forças Inter Planos."
             },
         ]
+    },{
+        card_id: 2,
+        content: [
+            {
+                type: "title",
+                content: "Imersão Sobrenatural"
+            },{
+                type: "paragraph",
+                content: "A cada nível, seu personagem sobe em 0,5% na chamada imersão sobrenatural (IS). Que pode ser lida como a facilidade com que o plano Pohivulduh (Sobrenatural) domina seus próprios poderes, e quanto mais poder você possui, mais fácil se torna controlar seu poder."
+            },{
+                type: "paragraph",
+                content: "A IS não é exatamente um nerf sobre seus poderes, mas sim o hábito que você tem de usar eles como parte natural de seu corpo. Ativar um poder, mudar de forma, controlar seu elemento e tudo mais se torna tão natural e instantâneo que um mero reflexo que arrepia seus cabelos poderia fazer você ativar sua forma mais poderosa sem esforço e quanto mais imerso, mais você tem que se esforçar justamente para não deixar seu poder escapar e assim, fingir ser um humano comum. Claro, isso falando de imersão total, inicialmente você ainda tem que aprender a usar seus poderes e descobrir como elas são, algo estranhamente novo mas que você sente uma certa aptidão com aquilo. Pra facilitar, pode seguir a tabela de imersão pra ter uma base, mas não tome ela como lei. É o grupo que decide isso."
+            },{
+                type: "table",
+                content: [
+                    {
+                        type: 'content',
+                        content: [
+                            "0-5%",
+                            "Você não consegue despertar nenhum poder."
+                        ]
+                    },{
+                        type: 'content',
+                        content: [
+                            "5,5% - 10%",
+                            "É Possível despertar o poder de Raça"
+                        ]
+                    },{
+                        type: 'content',
+                        content: [
+                            "10,5% - 14%",
+                            "É Possível despertar o poder Elemental"
+                        ]
+                    },{
+                        type: 'content',
+                        content: [
+                            "14,5% - 17,5%",
+                            "É Possível despertar a Magia"
+                        ]
+                    },{
+                        type: 'content',
+                        content: [
+                            "18% - 19%",
+                            "É Possível despertar o Poder Único"
+                        ]
+                    },{
+                        type: 'content',
+                        content: [
+                            "19,5% - 20%",
+                            "É Possível despertar uma forma Alfa"
+                        ]
+                    },
+                ]
+            },
+        ]
     },
 ]
 
