@@ -1,7 +1,7 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { About, Contact, Home, NotFound, PrivacityPolicity, TermsOfUse, MenuItems } from "./pages";
 import { GlobalStyle } from "./styles";
-import { Cards } from "./content";
+import { CardContent, Cards } from "./content";
 
 function App() {
   return (
@@ -20,11 +20,13 @@ function App() {
               <Cards type='System'/>
             </MenuItems>
           } />
+          <Route path="/system/:sysId" element={<CardContent />} />
           <Route path="/universe" element={
             <MenuItems>
               <Cards type='Universe'/>
             </MenuItems>
           } />
+          
           {/* <Route path="/profile/:nickname" element={<Perfil />} /> */}
 
           {/* <Route path="/blog" element={<Blog />} /> */}
