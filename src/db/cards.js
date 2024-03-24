@@ -24,6 +24,16 @@ const cards = [
             name: 'Game machanics',
             color: colors.orange
         }
+    },{
+        id: 2,
+        title: "Supernatural immersion",
+        description: "As your powers grow stronger, controlling them becomes instinctive. Activating skills and shaping elements becomes as natural as breathing. But to do this, you need to understand how IS works",
+        imageUrl: "https://images.playground.com/631ac211bede4b288b55db3aa28b3e7c.jpeg",
+        type: 'System',
+        type_box: {
+            name: 'Game machanics',
+            color: colors.orange
+        }
     },
 ];
 
