@@ -39,9 +39,9 @@ const Section = styled.section`
 `
 
 const MainBox = styled.section`
-    width: 65vw;
+    width: calc(100vw - 200px);
     margin: 50px 0;
-    padding: 50px 100px;
+    padding: 30px 100px;
     background-color: #292929;
 
     color: #ffd1ab;

@@ -90,6 +90,17 @@ const Paragraph_orange = styled(Paragraph)`
     color: #ffd1ab;
 `
 
+const List = styled.div`
+    margin: 10px 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    & p {
+        width: calc(100% - 40px);
+    }
+`
+
 
 export {
     TextNav,
@@ -106,5 +117,6 @@ export {
     RightQuote_orange,
     Paragraph_orange,
     H3, 
-    H3_orange
+    H3_orange,
+    List
 }
