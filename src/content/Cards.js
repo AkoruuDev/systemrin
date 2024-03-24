@@ -38,9 +38,9 @@ export {
 }
 
 const Card = styled.div`
-    width: 280px;
+    width: 250px;
     height: 300px;
-    margin: 20px;
+    margin: 10px;
     background-color: #666666;
     border-radius: 8px;
 
