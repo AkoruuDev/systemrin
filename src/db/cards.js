@@ -34,6 +34,16 @@ const cards = [
             name: 'Game machanics',
             color: colors.orange
         }
+    },{
+        id: 3,
+        title: "Archetypes",
+        description: "In Rinhuix, characters are defined by five archetypes: Throne, Grimoire, Shield, Spear and Bow. Award points to unlock unique skills. Evolve to unlock new powers and master an archetype for special abilities.",
+        imageUrl:"https://images.playground.com/068af94f9bda47aa9d79e2d3cc042161.jpeg",
+        type: 'System',
+        type_box: {
+            name: 'token sheet',
+            color: colors.purple
+        }
     },
 ];
 
