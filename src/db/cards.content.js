@@ -3,23 +3,47 @@ const cards_content = [
         card_id: 1,
         content: [
             {
-                type: "title",
-                content: "Progressão de Nível"
+                type: 'title',
+                content: 'Progressão de nível',
+                color: '#dba435',
+                size: 53,
+                side: 'center',
+                link: '',
             },{
                 type: "paragraph",
-                content: "XP Nível (XN) é aquilo que você acumula para passar de nível, pode ser obtido em treinos, missões, tarefas, estudos e etc."
+                content: "XP Nível (XN) é aquilo que você acumula para passar de nível, pode ser obtido em treinos, missões, tarefas, estudos e etc.",
+                color: '#dbdbdb',
+                size: 25,
+                side: 'left',
+                link: '',
             },{
                 type: "paragraph",
-                content: "Quando você passa de nível, todos os seus pontos XN são transformado em XP Caixa (XC). Zerando o XN mais uma vez."
+                content: "Quando você passa de nível, todos os seus pontos XN são transformado em XP Caixa (XC). Zerando o XN mais uma vez.",
+                color: '#dbdbdb',
+                size: 25,
+                side: 'left',
+                link: '',
             },{
                 type: "paragraph",
-                content: "Do nível 00 ao nível 01, é necessário obter 100 XN. Caso você tenha por exemplo 90 de XN e ganhe mais 15, os 5 extra são os adicionados ao XN do próximo nível, onde é necessário 200 XN pra passar."
+                content: "Do nível 00 ao nível 01, é necessário obter 100 XN. Caso você tenha por exemplo 90 de XN e ganhe mais 15, os 5 extra são os adicionados ao XN do próximo nível, onde é necessário 200 XN pra passar.",
+                color: '#dbdbdb',
+                size: 25,
+                side: 'left',
+                link: '',
             },{
                 type: "paragraph",
-                content: "XC é aquele que é usado para comprar coisas em sua ficha. Como atributos, pontos de vida, slots power e tudo mais. Basicamente, toda sua evolução depende do XC."
+                content: "XC é aquele que é usado para comprar coisas em sua ficha. Como atributos, pontos de vida, slots power e tudo mais. Basicamente, toda sua evolução depende do XC.",
+                color: '#dbdbdb',
+                size: 25,
+                side: 'left',
+                link: '',
             },{
                 type: "paragraph",
-                content: "É possível acumular XC, mas ele só pode ser gasto única e exclusivamente quando sobe de nível. O XC só pode ser obtido subindo de nível, por isso quando subir vai obter mais, porém aquele gasto não vai retornar."
+                content: "É possível acumular XC, mas ele só pode ser gasto única e exclusivamente quando sobe de nível. O XC só pode ser obtido subindo de nível, por isso quando subir vai obter mais, porém aquele gasto não vai retornar.",
+                color: '#dbdbdb',
+                size: 25,
+                side: 'left',
+                link: '',
             },{
                 type: "subtitle",
                 content: "Barras de XP"

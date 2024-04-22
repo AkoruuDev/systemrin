@@ -14,9 +14,11 @@ const TextNav = styled.p`
 `
 
 const Title = styled.h1`
+    width: 100%;
     margin: 20px 0;
-    font-size: 53px;
-    color: #dbdbdb;
+    text-align: ${props => props.side ? props.side : 'center'};
+    font-size: ${props => props.size ? props.size : '53'}px;
+    color: ${props => props.color ? props.color : '#dbdbdb'};
 `
 
 const TitleShort = styled.h2`
