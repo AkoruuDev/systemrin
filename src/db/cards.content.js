@@ -46,7 +46,11 @@ const cards_content = [
                 link: '',
             },{
                 type: "subtitle",
-                content: "Barras de XP"
+                content: "Barras de XP",
+                color: '#dbdbdb',
+                size: 35,
+                side: 'center',
+                link: '',
             },{
                 type: "table",
                 content: [
@@ -120,7 +124,11 @@ const cards_content = [
                 ]
             },{
                 type: "quote",
-                content: "(Total: 4.500)"
+                content: "(Total: 4.500)",
+                color: '#dbdbdb',
+                size: 25,
+                side: 'center',
+                link: '',
             },{
                 type: "table",
                 content: [
@@ -247,10 +255,18 @@ const cards_content = [
                 ]
             },{
                 type: "subtitle",
-                content: "Habilities"
+                content: "Habilities",
+                color: '#dbdbdb',
+                size: 35,
+                side: 'center',
+                link: '',
             },{
                 type: "paragraph",
-                content: "Por nivel, você recebe benefícios e em alguns niveis especificos é possível desbloquear habilidades naturais de um Pohuvulduh"
+                content: "Por nivel, você recebe benefícios e em alguns niveis especificos é possível desbloquear habilidades naturais de um Pohuvulduh",
+                color: '#dbdbdb',
+                size: 25,
+                side: 'left',
+                link: '',
             },{
                 type: "list",
                 content: "A partir do nível 25, é possivel mudar a composição de seu corpo, alterando pra qualquer aparência humanoide comum, mas sem poder extrapolar os limites de aparência fisica de um civil, mas pode alternar externa e internamente o corpo pra fêmea, macho, um híbrido de ambos ou nenhum dos dois. O processo todo leva de 1 semana a 1 Mês."
@@ -282,10 +298,18 @@ const cards_content = [
                 content: "Imersão Sobrenatural"
             },{
                 type: "paragraph",
-                content: "A cada nível, seu personagem sobe em 0,5% na chamada imersão sobrenatural (IS). Que pode ser lida como a facilidade com que o plano Pohivulduh (Sobrenatural) domina seus próprios poderes, e quanto mais poder você possui, mais fácil se torna controlar seu poder."
+                content: "A cada nível, seu personagem sobe em 0,5% na chamada imersão sobrenatural (IS). Que pode ser lida como a facilidade com que o plano Pohivulduh (Sobrenatural) domina seus próprios poderes, e quanto mais poder você possui, mais fácil se torna controlar seu poder.",
+                color: '#dbdbdb',
+                size: 25,
+                side: 'left',
+                link: '',
             },{
                 type: "paragraph",
-                content: "A IS não é exatamente um nerf sobre seus poderes, mas sim o hábito que você tem de usar eles como parte natural de seu corpo. Ativar um poder, mudar de forma, controlar seu elemento e tudo mais se torna tão natural e instantâneo que um mero reflexo que arrepia seus cabelos poderia fazer você ativar sua forma mais poderosa sem esforço e quanto mais imerso, mais você tem que se esforçar justamente para não deixar seu poder escapar e assim, fingir ser um humano comum. Claro, isso falando de imersão total, inicialmente você ainda tem que aprender a usar seus poderes e descobrir como elas são, algo estranhamente novo mas que você sente uma certa aptidão com aquilo. Pra facilitar, pode seguir a tabela de imersão pra ter uma base, mas não tome ela como lei. É o grupo que decide isso."
+                content: "A IS não é exatamente um nerf sobre seus poderes, mas sim o hábito que você tem de usar eles como parte natural de seu corpo. Ativar um poder, mudar de forma, controlar seu elemento e tudo mais se torna tão natural e instantâneo que um mero reflexo que arrepia seus cabelos poderia fazer você ativar sua forma mais poderosa sem esforço e quanto mais imerso, mais você tem que se esforçar justamente para não deixar seu poder escapar e assim, fingir ser um humano comum. Claro, isso falando de imersão total, inicialmente você ainda tem que aprender a usar seus poderes e descobrir como elas são, algo estranhamente novo mas que você sente uma certa aptidão com aquilo. Pra facilitar, pode seguir a tabela de imersão pra ter uma base, mas não tome ela como lei. É o grupo que decide isso.",
+                color: '#dbdbdb',
+                size: 25,
+                side: 'left',
+                link: '',
             },{
                 type: "table",
                 content: [
@@ -463,259 +487,431 @@ const cards_content = [
                 content: "Skill:"
             },{
                 type: "paragraph",
-                content: "(Passiva) Revigorar +1: Quando o escudo sai do estado morrendo, faz um teste de Pele DT 20 e ao passar recupera salva guardas equivalentes à quantidade no modificador da Skill sem ultrapassar o seu máximo. "
+                content: "(Passiva) Revigorar +1: Quando o escudo sai do estado morrendo, faz um teste de Pele DT 20 e ao passar recupera salva guardas equivalentes à quantidade no modificador da Skill sem ultrapassar o seu máximo.",
+                color: '#dbdbdb',
+                size: 25,
+                side: 'left',
+                link: '',
             },{
                 type: "quote",
                 content: "Gasto:"
             },{
                 type: "paragraph",
-                content: "1E/salva guarda"
+                content: "1E/salva guarda",
+                color: '#dbdbdb',
+                size: 25,
+                side: 'left',
+                link: '',
             },{
                 type: "quote",
                 content: "Poder:"
             },{
                 type: "paragraph",
-                content: "Imortal: O indivíduo possui um salva guarda Extra de PV."
+                content: "Imortal: O indivíduo possui um salva guarda Extra de PV.",
+                color: '#dbdbdb',
+                size: 25,
+                side: 'left',
+                link: '',
             },{
                 type: "quote",
                 content: "Desvantagem:"
             },{
                 type: "paragraph",
-                content: "A Iniciativa Reduz pela metade."
+                content: "A Iniciativa Reduz pela metade.",
+                color: '#dbdbdb',
+                size: 25,
+                side: 'left',
+                link: '',
             },{
                 type: "list",
                 content: "NV 04 - Muralha"
             },{
                 type: "paragraph",
-                content: "+1d4+1 de Capacidade Corporal e +1d4-1 de Capacidade Mental"
+                content: "+1d4+1 de Capacidade Corporal e +1d4-1 de Capacidade Mental",
+                color: '#dbdbdb',
+                size: 25,
+                side: 'left',
+                link: '',
             },{
                 type: "quote",
                 content: "Skill:"
             },{
                 type: "paragraph",
-                content: "(Passiva) Vingar +1: Quando o oponente golpeia o Escudo, também toma dano equivalente a metade do dano que causou no Escudo Muralha, somado o modificador da Skill no dano refletido (No dano crítico também dobra o modificador). "
+                content: "(Passiva) Vingar +1: Quando o oponente golpeia o Escudo, também toma dano equivalente a metade do dano que causou no Escudo Muralha, somado o modificador da Skill no dano refletido (No dano crítico também dobra o modificador). ",
+                color: '#dbdbdb',
+                size: 25,
+                side: 'left',
+                link: '',
             },{
                 type: "quote",
                 content: "Gasto:"
             },{
                 type: "paragraph",
-                content: "1E (Estamina)"
+                content: "1E (Estamina)",
+                color: '#dbdbdb',
+                size: 25,
+                side: 'left',
+                link: '',
             },{
                 type: "quote",
                 content: "Poder:"
             },{
                 type: "paragraph",
-                content: "Instante: Pode, como ação de movimento do turno, se teleportar pra frente de um ataque, drenando a reação de defesa de quem for protegido (Esse poder pode evoluir pra gastar ações livres e sem gastar reações de quem está sendo protegido). É uma Skill que pode ser usada uma vez por turno mesmo fora da sua vez devido à natureza de seu propósito."
+                content: "Instante: Pode, como ação de movimento do turno, se teleportar pra frente de um ataque, drenando a reação de defesa de quem for protegido (Esse poder pode evoluir pra gastar ações livres e sem gastar reações de quem está sendo protegido). É uma Skill que pode ser usada uma vez por turno mesmo fora da sua vez devido à natureza de seu propósito.",
+                color: '#dbdbdb',
+                size: 25,
+                side: 'left',
+                link: '',
             },{
                 type: "quote",
                 content: "Desvantagem:"
             },{
                 type: "paragraph",
-                content: "Depois da cena/combate que o Escudo Muralha ativa o poder ou a Skill do quarto nível de arquétipo em algum momento, o indivíduo fica fisicamente exausto na próxima cena/combate e o efeito passa quando essa cena/combate acaba. Essa condição deixa ele com metade de Mus, Pel e Olh, mas mantém o restante."
+                content: "Depois da cena/combate que o Escudo Muralha ativa o poder ou a Skill do quarto nível de arquétipo em algum momento, o indivíduo fica fisicamente exausto na próxima cena/combate e o efeito passa quando essa cena/combate acaba. Essa condição deixa ele com metade de Mus, Pel e Olh, mas mantém o restante.",
+                color: '#dbdbdb',
+                size: 25,
+                side: 'left',
+                link: '',
             },{
                 type: "list",
                 content: "NV 05 - Fortaleza"
             },{
                 type: "paragraph",
-                content: "+1d4+1 de Capacidade Corporal e +1d4-1 de Capacidade Mental"
+                content: "+1d4+1 de Capacidade Corporal e +1d4-1 de Capacidade Mental",
+                color: '#dbdbdb',
+                size: 25,
+                side: 'left',
+                link: '',
             },{
                 type: "quote",
                 content: "Skill:"
             },{
                 type: "paragraph",
-                content: "(Ativa) Salvar +1: Caso aliados estejam morrendo, o Escudo Fortaleza pode fazer o teste de Salva Vidas (Mente DT 30) para recuperar 1 de PV do aliado caído (Só quem possui essa Skill pode fazer o teste)."
+                content: "(Ativa) Salvar +1: Caso aliados estejam morrendo, o Escudo Fortaleza pode fazer o teste de Salva Vidas (Mente DT 30) para recuperar 1 de PV do aliado caído (Só quem possui essa Skill pode fazer o teste).",
+                color: '#dbdbdb',
+                size: 25,
+                side: 'left',
+                link: '',
             },{
                 type: "quote",
                 content: "Gasto:"
             },{
                 type: "paragraph",
-                content: "1E (Estamina)"
+                content: "1E (Estamina)",
+                color: '#dbdbdb',
+                size: 25,
+                side: 'left',
+                link: '',
             },{
                 type: "quote",
                 content: "Poder:"
             },{
                 type: "paragraph",
-                content: "Permanente: Permite o arquétipo escudo tenha 20 pontos de vida por nivel e cada ponto extras adquiridos de outras formas além da evolução de nível vale 4 pontos. O segundo estágio desse poder permite que o Escudo Fortaleza possa dobrar seu limite do atributo pele e com um novo despertar desse poder, evoluir pra 30 PV por nível a custo de 5 de sua sanidade máxima."
+                content: "Permanente: Permite o arquétipo escudo tenha 20 pontos de vida por nivel e cada ponto extras adquiridos de outras formas além da evolução de nível vale 4 pontos. O segundo estágio desse poder permite que o Escudo Fortaleza possa dobrar seu limite do atributo pele e com um novo despertar desse poder, evoluir pra 30 PV por nível a custo de 5 de sua sanidade máxima.",
+                color: '#dbdbdb',
+                size: 25,
+                side: 'left',
+                link: '',
             },{
                 type: "list",
                 content: "Mestrado:"
             },{
                 type: "paragraph",
-                content: "Protector: (Passiva) Além de poder ensinar todas as habilidades de seu Mestrado, todas elas podem evoluir até +8 no modificador. (Ativa) Pode reduzir a zero absolutamente qualquer dano de um único ataque, uma vez por combate/cena como ação livre (Não é válido pra ataques surpresas), mas pode escolher quem será o protegido desse ataque, mesmo que seja a si mesmo."
+                content: "Protector: (Passiva) Além de poder ensinar todas as habilidades de seu Mestrado, todas elas podem evoluir até +8 no modificador. (Ativa) Pode reduzir a zero absolutamente qualquer dano de um único ataque, uma vez por combate/cena como ação livre (Não é válido pra ataques surpresas), mas pode escolher quem será o protegido desse ataque, mesmo que seja a si mesmo.",
+                color: '#dbdbdb',
+                size: 25,
+                side: 'left',
+                link: '',
             },{
                 type: "subtitle",
-                content: "Lança"
+                content: "Lança",
+                color: '#dbdbdb',
+                size: 35,
+                side: 'center',
+                link: '',
             },{
                 type: "quote",
                 content: "Passiva: "
             },{
                 type: "paragraph",
-                content: "Poderes de arquétipo gastam slot power pra funcionarem."
+                content: "Poderes de arquétipo gastam slot power pra funcionarem.",
+                color: '#dbdbdb',
+                size: 25,
+                side: 'left',
+                link: '',
             },{
                 type: "quote",
                 content: "Descrição:"
             },{
                 type: "paragraph",
-                content: "Tidos como os maiores heróis e geralmente quem recebe a glória das conquistas de um grupo, o Lança é aquele que possui um alto poder massivo de ataque, podendo gerar mais dano no inimigo que a maioria do grupo. Seu corpo é, por si só, uma máquina de bater. Visualmente, ele é geralmente aquele que tem os músculos mais bem definidos e construídos, hematomas e cicatrizes por todo o corpo, e está sempre ao lado do arquétipo escudo. Onde um protege e o outro bate, formando uma dupla letal quando o assunto é matar. São brutamontes que adoram batalhas, mas também são bons estrategistas. Apesar de não serem em sua maioria os mais inteligentes, a experiência trás a sabedoria da batalha."
+                content: "Tidos como os maiores heróis e geralmente quem recebe a glória das conquistas de um grupo, o Lança é aquele que possui um alto poder massivo de ataque, podendo gerar mais dano no inimigo que a maioria do grupo. Seu corpo é, por si só, uma máquina de bater. Visualmente, ele é geralmente aquele que tem os músculos mais bem definidos e construídos, hematomas e cicatrizes por todo o corpo, e está sempre ao lado do arquétipo escudo. Onde um protege e o outro bate, formando uma dupla letal quando o assunto é matar. São brutamontes que adoram batalhas, mas também são bons estrategistas. Apesar de não serem em sua maioria os mais inteligentes, a experiência trás a sabedoria da batalha.",
+                color: '#dbdbdb',
+                size: 25,
+                side: 'left',
+                link: '',
             },{
                 type: "list",
                 content: "NV 01 - Faca"
             },{
                 type: "paragraph",
-                content: "+1d4+2 de Capacidade Corporal e +1d4-2 de Capacidade Mental"
+                content: "+1d4+2 de Capacidade Corporal e +1d4-2 de Capacidade Mental",
+                color: '#dbdbdb',
+                size: 25,
+                side: 'left',
+                link: '',
             },{
                 type: "quote",
                 content: "Skill:"
             },{
                 type: "paragraph",
-                content: "(Ativa) Dobrar +1: Ao anunciar a skill sendo ativada antes de rolar o dado, é possivel tirar um acerto crítico em rolagens também com um 19 natural (o modificador serve pra diminuir a margem, pra fazer até um 15 natural ser crítico quando for +5)."
+                content: "(Ativa) Dobrar +1: Ao anunciar a skill sendo ativada antes de rolar o dado, é possivel tirar um acerto crítico em rolagens também com um 19 natural (o modificador serve pra diminuir a margem, pra fazer até um 15 natural ser crítico quando for +5).",
+                color: '#dbdbdb',
+                size: 25,
+                side: 'left',
+                link: '',
             },{
                 type: "quote",
                 content: "Gasto:"
             },{
                 type: "paragraph",
-                content: "1E (Estamina)"
+                content: "1E (Estamina)",
+                color: '#dbdbdb',
+                size: 25,
+                side: 'left',
+                link: '',
             },{
                 type: "quote",
                 content: "Poder:"
             },{
                 type: "paragraph",
-                content: "Amortizador: Dar o dobro de dano em qualquer ataque bem crítico, ou seja, o dano multiplica por 4 (8 de dano pra um lança é 32)."
+                content: "Amortizador: Dar o dobro de dano em qualquer ataque bem crítico, ou seja, o dano multiplica por 4 (8 de dano pra um lança é 32).",
+                color: '#dbdbdb',
+                size: 25,
+                side: 'left',
+                link: '',
             },{
                 type: "quote",
                 content: "Desvantagem:"
             },{
                 type: "paragraph",
-                content: "Sanidade natural pela metade, mas pontos comprados não são afetados por essa desvantagem. Isso se dá devido ao seu contato constante com a batalha que mexe com sua mente"
+                content: "Sanidade natural pela metade, mas pontos comprados não são afetados por essa desvantagem. Isso se dá devido ao seu contato constante com a batalha que mexe com sua mente",
+                color: '#dbdbdb',
+                size: 25,
+                side: 'left',
+                link: '',
             },{
                 type: "list",
                 content: "NV 02 - Espada"
             },{
                 type: "paragraph",
-                content: "+1d4+2 de Capacidade Corporal e +1d4-2 de Capacidade Mental "
+                content: "+1d4+2 de Capacidade Corporal e +1d4-2 de Capacidade Mental ",
+                color: '#dbdbdb',
+                size: 25,
+                side: 'left',
+                link: '',
             },{
                 type: "quote",
                 content: "Skill:"
             },{
                 type: "paragraph",
-                content: "(Ativa) Demolir +1: Com uma ação principal, o indivíduo pode fazer uma manobra causar dano corporal."
+                content: "(Ativa) Demolir +1: Com uma ação principal, o indivíduo pode fazer uma manobra causar dano corporal.",
+                color: '#dbdbdb',
+                size: 25,
+                side: 'left',
+                link: '',
             },{
                 type: "quote",
                 content: "Gasto:"
             },{
                 type: "paragraph",
-                content: "1E (Estamina)"
+                content: "1E (Estamina)",
+                color: '#dbdbdb',
+                size: 25,
+                side: 'left',
+                link: '',
             },{
                 type: "quote",
                 content: "Poder:"
             },{
                 type: "paragraph",
-                content: "Brutal: Quando gerado um dano crítico por alguém do grupo que tenha afinidade com o lanca, ele pode usar um golpe em conjunto pra que, unidos possam dar um dano adicional e nesse dano, a rolagem de dados feita por quem deu o crítico não é dobrada e sim triplicada."
+                content: "Brutal: Quando gerado um dano crítico por alguém do grupo que tenha afinidade com o lanca, ele pode usar um golpe em conjunto pra que, unidos possam dar um dano adicional e nesse dano, a rolagem de dados feita por quem deu o crítico não é dobrada e sim triplicada.",
+                color: '#dbdbdb',
+                size: 25,
+                side: 'left',
+                link: '',
             },{
                 type: "quote",
                 content: "Desvantagem:"
             },{
                 type: "paragraph",
-                content: "Não pode usar seu Poder Único até pegar um novo nível de arquétipo. Isso ocorre devido a massa concentrada de poder que fica incontrolável por um momento."
+                content: "Não pode usar seu Poder Único até pegar um novo nível de arquétipo. Isso ocorre devido a massa concentrada de poder que fica incontrolável por um momento.",
+                color: '#dbdbdb',
+                size: 25,
+                side: 'left',
+                link: '',
             },{
                 type: "list",
                 content: "NV 03 - Foice"
             },{
                 type: "paragraph",
-                content: "+1d4+2 de Capacidade Corporal e +1d4-2 de Capacidade Mental"
+                content: "+1d4+2 de Capacidade Corporal e +1d4-2 de Capacidade Mental",
+                color: '#dbdbdb',
+                size: 25,
+                side: 'left',
+                link: '',
             },{
                 type: "quote",
                 content: "Skill:"
             },{
                 type: "paragraph",
-                content: "(Ativa) Surpreender +1: Todos os seus ataques são Ataques surpresa (Esquivar, bloquear e contra atacar dos oponentes atacados são rolados com desvantagem)."
+                content: "(Ativa) Surpreender +1: Todos os seus ataques são Ataques surpresa (Esquivar, bloquear e contra atacar dos oponentes atacados são rolados com desvantagem).",
+                color: '#dbdbdb',
+                size: 25,
+                side: 'left',
+                link: '',
             },{
                 type: "quote",
                 content: "Gasto:"
             },{
                 type: "paragraph",
-                content: "1E (Estamina) por ação extra"
+                content: "1E (Estamina) por ação extra",
+                color: '#dbdbdb',
+                size: 25,
+                side: 'left',
+                link: '',
             },{
                 type: "quote",
                 content: "Poder:"
             },{
                 type: "paragraph",
-                content: "One More: Pode se ter mais uma ação principal além da natural que já possui."
+                content: "One More: Pode se ter mais uma ação principal além da natural que já possui.",
+                color: '#dbdbdb',
+                size: 25,
+                side: 'left',
+                link: '',
             },{
                 type: "quote",
                 content: "Desvantagem:"
             },{
                 type: "paragraph",
-                content: "Não pode usar magia até pegar um novo nível de arquétipo"
+                content: "Não pode usar magia até pegar um novo nível de arquétipo",
+                color: '#dbdbdb',
+                size: 25,
+                side: 'left',
+                link: '',
             },{
                 type: "list",
                 content: "NV 04 - Machado"
             },{
                 type: "paragraph",
-                content: "+1d4+2 de Capacidade Corporal e +1d4-2 de Capacidade Mental"
+                content: "+1d4+2 de Capacidade Corporal e +1d4-2 de Capacidade Mental",
+                color: '#dbdbdb',
+                size: 25,
+                side: 'left',
+                link: '',
             },{
                 type: "quote",
                 content: "Skill:"
             },{
                 type: "paragraph",
-                content: "(Ativa) Barbarisar +1: Quando se dá dano crítico, pode se gerar automaticamente o dano máximo possível daquele ataque. Essa habilidade pode ser usada, por combate/cena, o número de vezes equivalentes ao modificador da habilidade. "
+                content: "(Ativa) Barbarisar +1: Quando se dá dano crítico, pode se gerar automaticamente o dano máximo possível daquele ataque. Essa habilidade pode ser usada, por combate/cena, o número de vezes equivalentes ao modificador da habilidade. ",
+                color: '#dbdbdb',
+                size: 25,
+                side: 'left',
+                link: '',
             },{
                 type: "quote",
                 content: "Gasto:"
             },{
                 type: "paragraph",
-                content: "2E (Estamina)"
+                content: "2E (Estamina)",
+                color: '#dbdbdb',
+                size: 25,
+                side: 'left',
+                link: '',
             },{
                 type: "quote",
                 content: "Poder:"
             },{
                 type: "paragraph",
-                content: "Sombra: O movimento do Lança Machado é o dobro do normal quando está em combate."
+                content: "Sombra: O movimento do Lança Machado é o dobro do normal quando está em combate.",
+                color: '#dbdbdb',
+                size: 25,
+                side: 'left',
+                link: '',
             },{
                 type: "quote",
                 content: "Desvantagem:"
             },{
                 type: "paragraph",
-                content: "Sanidade natural pela Metade e dessa vez os pontos comprados também são afetados por essa desvantagem, custando o dobro pra serem comprados."
+                content: "Sanidade natural pela Metade e dessa vez os pontos comprados também são afetados por essa desvantagem, custando o dobro pra serem comprados.",
+                color: '#dbdbdb',
+                size: 25,
+                side: 'left',
+                link: '',
             },{
                 type: "list",
-                content: "NV 05 - Two Blade"
+                content: "NV 05 - Two Blade",
             },{
                 type: "paragraph",
-                content: "+1d4+2 de Capacidade Corporal e +1d4-2 de Capacidade Mental mental "
+                content: "+1d4+2 de Capacidade Corporal e +1d4-2 de Capacidade Mental mental ",
+                color: '#dbdbdb',
+                size: 25,
+                side: 'left',
+                link: '',
             },{
                 type: "quote",
                 content: "Poder:"
             },{
                 type: "paragraph",
-                content: '(Ativo) Cirurgião: Ao dar um golpe que gere dano massivo no oponente (Mais da metade da vida máxima dele em dano de uma só vez), o "Decepar" permite arrancar um membro do oponente a escolha do atacante, contanto que não seja um membro vital como a cabeça (Essa excessão pode ser revogada pelo mestre caso o oponente venha inevitavlmente a óbito com esse dano).'
+                content: '(Ativo) Cirurgião: Ao dar um golpe que gere dano massivo no oponente (Mais da metade da vida máxima dele em dano de uma só vez), o "Decepar" permite arrancar um membro do oponente a escolha do atacante, contanto que não seja um membro vital como a cabeça (Essa excessão pode ser revogada pelo mestre caso o oponente venha inevitavlmente a óbito com esse dano).',
+                color: '#dbdbdb',
+                size: 25,
+                side: 'left',
+                link: '',
             },{
                 type: "quote",
                 content: "Poder:"
             },{
                 type: "paragraph",
-                content: "(Passivo): Pleno: Nenhuma Skill gasta Estamina a partir daqui, e nesse ponto a Estamina pode ser convertida em SP comum. O segundo estágio desse poder permite que o Lança Two Blade possa dobrar seu limite do atributo Músculo (De 20 pra 40)."
+                content: "(Passivo): Pleno: Nenhuma Skill gasta Estamina a partir daqui, e nesse ponto a Estamina pode ser convertida em SP comum. O segundo estágio desse poder permite que o Lança Two Blade possa dobrar seu limite do atributo Músculo (De 20 pra 40).",
+                color: '#dbdbdb',
+                size: 25,
+                side: 'left',
+                link: '',
             },{
                 type: "list",
                 content: "Mestrado:"
             },{
                 type: "quote",
-                content: "Punch:"
+                content: "Punch:",
             },{
                 type: "quote",
                 content: "(Passiva)"
             },{
                 type: "paragraph",
-                content: "Além de poder ensinar todas as habilidades de seu Mestrado, Todas elas podem evoluir até +8 no modificador. "
+                content: "Além de poder ensinar todas as habilidades de seu Mestrado, Todas elas podem evoluir até +8 no modificador. ",
+                color: '#dbdbdb',
+                size: 25,
+                side: 'left',
+                link: '',
             },{
                 type: "quote",
                 content: "(Ativa)"
             },{
                 type: "paragraph",
-                content: '• No estágio 1, pode-se usar "Punho Suave". Nessa técnica o mestrando pode dar golpes que selam temporáriamente (1d4 turnos) um poder específico de quem for golpeado fisicamente (apenas golpes desarmados e corpo a corpo, sem poderes)'
+                content: '• No estágio 1, pode-se usar "Punho Suave". Nessa técnica o mestrando pode dar golpes que selam temporáriamente (1d4 turnos) um poder específico de quem for golpeado fisicamente (apenas golpes desarmados e corpo a corpo, sem poderes)',
+                color: '#dbdbdb',
+                size: 25,
+                side: 'left',
+                link: '',
             },{
                 type: "paragraph",
-                content: '• No estágio 2 Pode-se usar "Punho Furioso". Nessa técnica o mestrando pode quebrar ossos, causando o estado "Quebrado" ao oponente, que não poderá usar o membro danificado até o fim do combate ou por mais tempo, caso a narrativa/mestre defina isso.'
+                content: '• No estágio 2 Pode-se usar "Punho Furioso". Nessa técnica o mestrando pode quebrar ossos, causando o estado "Quebrado" ao oponente, que não poderá usar o membro danificado até o fim do combate ou por mais tempo, caso a narrativa/mestre defina isso.',
+                color: '#dbdbdb',
+                size: 25,
+                side: 'left',
+                link: '',
             },{
                 type: 'subtitle',
                 content: 'Grimório'

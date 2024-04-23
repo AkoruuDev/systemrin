@@ -28,9 +28,11 @@ const TitleShort = styled.h2`
 `
 
 const Subtitle = styled.h2`
+    width: 100%;
     margin: 20px 0;
-    font-size: 28px;
-    color: #dbdbdb;
+    text-align: ${props => props.side ? props.side : 'center'};
+    font-size: ${props => props.size ? props.size : '35'}px;
+    color: ${props => props.color ? props.color : '#dbdbdb'};
 `
 
 const H3 = styled.h3`
@@ -40,9 +42,10 @@ const H3 = styled.h3`
 `
 
 const Quote = styled.span`
-    text-align: center;
-    font-size: 25px;
-    color: #dbdbdb;
+    width: 100%;
+    text-align: ${props => props.side ? props.side : 'center'};
+    font-size: ${props => props.size ? props.size : '25'}px;
+    color: ${props => props.color ? props.color : '#dbdbdb'};
 `
 
 const RightQuote = styled.span`

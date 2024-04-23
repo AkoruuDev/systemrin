@@ -11,7 +11,7 @@ function Content({ e }) {
                 </Title>)
         } else {
             return (
-                <a href={e.link} target="_blank">
+                <a href={e.link} target="_blank" rel="noreferrer">
                     <Title side={e.side} size={e.size} color={e.color}>
                         {e.content}
                     </Title>
@@ -26,7 +26,7 @@ function Content({ e }) {
                 </Subtitle>)
         } else {
             return (
-                <a href={e.link} target="_blank">
+                <a href={e.link} target="_blank" rel="noreferrer">
                     <Subtitle side={e.side} size={e.size} color={e.color}>
                         {e.content}
                     </Subtitle>
@@ -41,7 +41,7 @@ function Content({ e }) {
                 </Paragraph>)
         } else {
             return (
-                <a href={e.link} target="_blank">
+                <a href={e.link} target="_blank" rel="noreferrer">
                     <Paragraph side={e.side} size={e.size} color={e.color}>
                         {e.content}
                     </Paragraph>
@@ -58,7 +58,7 @@ function Content({ e }) {
                 </Quote>)
         } else {
             return (
-                <a href={e.link} target="_blank">
+                <a href={e.link} target="_blank" rel="noreferrer">
                     <Quote side={e.side} size={e.size} color={e.color}>
                         {e.content}
                     </Quote>
