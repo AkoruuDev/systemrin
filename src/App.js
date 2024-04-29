@@ -1,7 +1,7 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { About, Contact, Home, NotFound, PrivacityPolicity, TermsOfUse, MenuItems } from "./pages";
 import { GlobalStyle } from "./styles";
-import { CardContent, Cards } from "./content";
+import { CardContent, Cards, Voice } from "./content";
 
 function App() {
   return (
@@ -26,6 +26,7 @@ function App() {
               <Cards type='Universe'/>
             </MenuItems>
           } />
+          <Route path="/universe/aux/voice/:voiceTxt" element={<Voice />} />
           
           {/* <Route path="/profile/:nickname" element={<Perfil />} /> */}
 
