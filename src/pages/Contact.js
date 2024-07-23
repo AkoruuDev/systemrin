@@ -27,19 +27,19 @@ function Contact() {
                 <Subtitle_orange>Caixa de mensagem</Subtitle_orange>
                 <FormContact />
                 <Subtitle_orange>Próximas sessões presenciais</Subtitle_orange>
-                <RowGrid>
+                {/* <RowGrid>
                     {meets.map((e, i) => {
                         if (!e.isOnline) return <Meet key={i} meet={e}/>
                         return null;
                     })}
-                    </RowGrid>
+                </RowGrid>
                 <Subtitle_orange>Próximas sessões online</Subtitle_orange>
                 <RowGrid>
                     {meets.map((e, i) => {
                         if (e.isOnline) return <Meet key={i} meet={e}/>
                         return null;
                     })}
-                </RowGrid>
+                </RowGrid> */}
             </MainBox>
         </Container>
     )
